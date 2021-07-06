@@ -34,3 +34,30 @@ body{
     font-size: 50px;
     
 }
+.about{
+    display: flex;
+    margin-right: 170px;
+    background-image: url(Images/about-text-bg.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about-img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-left: 250px;
+}
+.about-img img{
+    width: 290px;
+    height: 355px;
+    
+}
+.about-text{
+    width: 40%;
+    padding-top: 135px;
+    padding-left: 60px;
+   
+}
+
