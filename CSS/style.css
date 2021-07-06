@@ -26,6 +26,8 @@ body{
     background-position:top;
     margin: 0;
     padding: 0;
+    box-shadow: 7px 7px 20px grey;
+        
 }
 .intro h1{
     text-align: center;
@@ -43,6 +45,8 @@ body{
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: right;
+   
+        
 }
 .about-img{
     width: 50%;
@@ -50,16 +54,23 @@ body{
     border-radius: 10px;
     padding-top: 2px;
     padding-left: 250px;
+    
+       
 }
 .about-img img{
     width: 290px;
     height: 355px;
+    box-shadow: 5px 5px 20px grey;
+      
     
 }
 .about-text{
     width: 40%;
     padding-top: 135px;
     padding-left: 60px;
+    box-shadow: 5px 5px 20px grey;
+        border-radius: 10px;
+        
    
 }
 #food-reviews{
@@ -86,6 +97,7 @@ body{
 }
 #pizza {
     width: 33.33%;
+    
 }
 #steak {
     width: 33.33%;
@@ -96,9 +108,92 @@ body{
 #steak img{
     width: 100%;
 }
-#restaurant{
+#restaurant-rec{
     text-align: center;
     margin: 0;
     padding: 0; 
     font-size: 40px;
 }
+.restaurant{
+    display: flex;
+    margin-bottom: 20px;
+}
+.milano{
+    width: 33.33%;
+    margin: 20px 15px 0 15px;
+    padding: 5px 0 5px 30px;
+    
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-image-slice: 9;
+}
+.ambrosia{
+    width: 33.33%;
+    margin: 20px 15px 0 15px;
+    padding: 5px 0 5px 30px;
+    
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-image-slice: 9;
+}
+.meal-city{
+    width: 33.33%;
+    margin: 20px 15px 0 15px;
+    padding: 5px 0 5px 30px;
+   
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-image-slice: 9;
+}
+.form{
+    
+    background-image: url(Images/form-banner.jpg);
+    height: 450px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+     background-size: cover;
+}
+.form{
+    text-align: center;
+    color: orangered;
+   font-size: 40px;
+    padding: 10px;
+    
+}
+.form form label{
+    display: block;
+    padding: 10px;
+    
+
+}
+#contactme{
+    font-size: 20px;
+    background-color: rgb(230, 210, 210);
+    border: 2px solid black;
+    border-radius:20px;
+}
+#contactme [type=submit]{
+    font-size: 0.5em;
+    
+}
+footer{
+    text-align: center;
+    background-image: url(Images/footer-background.jpg);
+    height: 200px;
+    margin: -30px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+     background-size: cover;
+    
+}
+footer, h1 h2 p{
+    color: white;
+    padding-top: 30px;
+}
+
